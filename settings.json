@@ -1,0 +1,68 @@
+{
+    // Terminal
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    
+    // Styles 
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Fira Code",
+    "workbench.colorTheme": "Nordico",
+    "editor.fontLigatures": true,
+    "material-icon-theme.activeIconPack": "nest",
+    
+    // Utility configs
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    
+    // Eslint Configs    
+    "eslint.enable": true,
+    "eslint.format.enable": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "typescriptreact",
+        "html"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    
+    // Vim configs
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "line",
+    "vim.cursorStylePerMode.replace": "block",
+    "vim.cursorStylePerMode.visual": "line",
+    "vim.startInInsertMode": true,
+    "vim.visualstar": true,
+    "vim.camelCaseMotion.enable": true,
+    "vim.autoindent": true,
+    "vim.showmodename": true,
+    "vim.overrideCopy": false,
+    "vim.smartRelativeLine": true,
+    "vim.handleKeys": {
+        "<C-c>": true,
+        "<C-v>": true,
+        "<C-x>": true
+    },
+    
+    // Other related configs
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "files.exclude": {
+        "**/node_modules": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always"
+
+}
